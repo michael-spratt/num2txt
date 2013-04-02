@@ -1,14 +1,50 @@
 <html>
-<object type="application/x-oleobject"
-CLASSID="CLSID:32987224-590B-5037-0F92-7A774177AAD3">
-</object>
 
-<head><script LANGUAGE="JavaScript">
+<head>
+
+<title>NUM2TXT source</title>
+</head>
+
+
+
+<body bgcolor="#BCFEE3">
+<p align="center" style="TEXT-ALIGN: center">
+&nbsp;</p>
+<p align="center" style="TEXT-ALIGN: center">
+&nbsp;</p>
+<p align="center" style="TEXT-ALIGN: center">
+&nbsp;</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="A4CVCL4WSV9DN">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<p align="center" style="TEXT-ALIGN: center">
+<span style="mso-bidi-font-size: 12.0pt"><font size="7">NUM 2 
+TXT</font><o:p></o:p></span></p>
+
+<p align="center" style="TEXT-ALIGN: center">    Number to text</p>
+
+<p align="center" style="TEXT-ALIGN: center">Convert a number into its word format
+in<br>
+<span style="FONT-SIZE: 16pt; mso-bidi-font-size: 12.0pt">English, French, German
+and Spanish <br>
+</span>(other language under development, or on command)</p>
+
+<p align="center" style="TEXT-ALIGN: center"><span style="FONT-SIZE:
+ 16pt; mso-bidi-font-size: 12.0pt">Why?<o:p></o:p></span></p>
+
+
+<p>Do you need to write a check from an accounting system, a legal document or just
+pronounce numbers in a different language?<script LANGUAGE="JavaScript">
 
 // ******************************  C O N V E R T _ N U M B E R S_T O _ T E X T ******************
 //
 //  This program takes a numeric string and converts it to text string of words. 
-//  The program pharses the numbers from right to left and builds a word string
+//	The program pharses the numbers from right to left and builds a word string
 //
 //  The code is commented a equiped with break points ALERT which are commented out.
 //
@@ -126,10 +162,10 @@ function convert()
 
 			if (rightnumber == 0) 
 				{
-					Frenchresult  = " zero " + Frenchcents + "s";	
-					Englishresult = " zero " + Englishcents + "s" ;
-					Germanresult  = " null" + Germancents  + "s";
-					Spanishresult = " cero " + Spanishcents + "s";
+					Frenchresult  = " zero " ;	//	+ Frenchcents + "s";	
+					Englishresult = " zero " ;	//	+ Englishcents + "s" ;
+					Germanresult  = " null" ;	//	+ Germancents  + "s";
+					Spanishresult = " cero " ;	//	+ Spanishcents + "s";
 				}
 				
 			if (rightnumber >= 0) 
@@ -694,31 +730,17 @@ function SPANISH_DECIMAL()
 
 }			// END   SPANISH Decimal()
 // ***************************************************
-
-
 // End 
+</script></p>
 
-
-</script>
-
-<title>test11</title>
-</head>
-
-<body bgcolor="#83FCC2">
-
-<p>Do you need to write a check from an accounting system, a legal document or just
-pronounce numbers in a different language?</p>
-
-<p align="left">(formated 9999999.99 or 9999999,99)</p>
 
 <form>
-  <table border="&#147;0" cellpadding="&#147;0"
-  style="&#147;mso-cellspacing;1.5pt;mso-padding-alt;" 0cm 0cm 0cm 0cm height="497">
+  <table 
     <tr>
-      <td style="&#147;padding;.75pt" .75pt .75pt .75pt height="493"><p class="&#147;MsoNormal">Enter
-      a Number&nbsp;&nbsp;&nbsp; <input TYPE="TEXT" MAXLENGTH="11" SIZE="11" NAME="number">
+     <p class="&#147;MsoNormal" align="left">Enter a Number&nbsp;&nbsp;&nbsp; <input TYPE="TEXT" MAXLENGTH="11" SIZE="11" NAME="number">
       &nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="Convert"
-      onclick="convert_to_text(number)"> (formatted 9999999.99 or 9999999,99) </p>
+      onclick="convert_to_text(number)"> <br>
+		(formatted 9999999.99 or 9999999,99) </p>
       <p><span style="font-size;7.5pt;font-family;&quot;Arial" Black&quot;>French <input
       TYPE="TEXT" SIZE="98" NAME="French"> </span></p>
       <p><span style="font-size;7.5pt;font-family;&quot;Arial" Black&quot;;color;black>English <input
@@ -732,5 +754,7 @@ pronounce numbers in a different language?</p>
     </tr>
   </table>
 </form>
+<p>Are there any errors?  Would you like another language added?  Email me at
+<a href="mailto:mspratt@univ-montp2.fr">mspratt@univ-montp2.fr</a></p>
 </body>
 </html>
